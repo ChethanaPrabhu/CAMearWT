@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CAMera Rentals</title> 
+
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/10288b0be3.js" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&family=Sacramento&family=Ubuntu&display=swap" rel="stylesheet">
+
+ 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+  <!-- Indian Rupee -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">CAMera Rentals</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home-banner">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Our Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#camera-listings">Cameras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Reviews">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="signup.html">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+    </nav>
+    <br>
+    <section id="home-banner"></section>
+  </header>
+  <br>
+
+  <!-- Features -->
+  <div class="camera-avl">
+    <h1 font-family: 'Montserrat', sans-serif;>OUR FEATURES</h1>
+  </div>
+  <section id="features">
+    <div class="row">
+      <div class="col-lg-4">
+        <i class="fa-solid fa-check"></i>
+        <h3 class="feature-heading">Easy to Use</h3>
+        <p>Explore our camera selection with ease.</p>
+      </div>
+      <div class="col-lg-4">
+        <i class="fa-solid fa-thumbs-up"></i>
+        <h3 class="feature-heading">Quality Assurance</h3>
+        <p>Guaranteed quality in every camera.</p>
+      </div>
+      <div class="col-lg-4">
+        <i class="fa-solid fa-bell"></i>
+        <h3 class="feature-heading">24/7 Support</h3>
+        <p>We're here to assist you round the clock.</p>
+      </div>
+    </div>
+    </section>
+    
+
+  <div class="camera-avl">
+    <h1 font-family: 'Montserrat', sans-serif;>ALL AVAILABLE CAMERAS</h1>
+  </div>
+
+  <section id="camera-listings">
+
+    <div class="camera-card" data-camera-id="101">
+      <img class="camera-img" src="Camera1.jpg" alt="Camera 1">
+      <div class="camera-details">
+        <h2>Canon PowerShot SX740HS</h2>
+        <p>Specifications: 40x optical zoom (24mm - 960mm) with 80x ZoomPlus <br>
+          4K movie recording (including 4K time lapse movies and 4K Frame Grab)<br>
+          DIGIC 8 processor</p>
+        <p>Resolution: 64MP</p>
+        <p>Rental: <i class="fa fa-inr"></i>1500/day</p>
+        <button class="contact-btn" onclick="showContactForm('Camera 1')">Rent Camera</button>
+      </div>
+    </div>
+
+    <div class="camera-card" data-camera-id="101">
+      <img class="camera-img" src="Camera 2.png" alt="Camera 2">
+      <div class="camera-details">
+        <h2>Canon EOS 5D Mark IV</h2>
+        <p>Specifications: 30.4megapixel Full-frame CMOS Sensor<br>
+          Dual pixel CMOS AF<br>
+          4K Movie Shooting (25 / 30p) with 4K Frame Grab</p>
+        <p>Resolution: 128MP</p>
+        <p>Rental: <i class="fa fa-inr"></i>3500/day</p>
+        <br> <br>
+        <button class="contact-btn" onclick="showContactForm('Camera 2')">Rent Camera</button>
+      </div>
+    </div>
+
+    <div class="camera-card" data-camera-id="101">
+      <img class="camera-img" src="Camera 3.jpg" alt="Camera 3">
+      <div class="camera-details">
+        <h2>Canon EOS R6 Mark II</h2>
+        <p>Specifications: CMOS sensor<br>
+          6K RAW HDMI out, 4K 60p (6K Oversampling) & FHD 180p<br>
+          Up to 40 frames per second (fps) & up to 8 stops image stabilisation<br></p>
+        <p>Resolution: 128MP</p>
+        <p>Rental: <i class="fa fa-inr"></i>2000/day</p> <br>
+        <button class="contact-btn" onclick="showContactForm('Camera 3')">Rent Camera</button>
+      </div>
+    </div>
+
+
+    <div class="camera-card" data-camera-id="101">
+      <img class="camera-img" src="Camera4.png" alt="Camera 4">
+      <div class="camera-details">
+        <h2>Canon EOS R100</h2>
+        <p>Specifications: Approx. 24.1MP APS-C CMOS sensor & approx. 356g (body)<br>
+          Up to 6.5 frames per second with Eye Detection AF<br>
+          4K 25p & HD 120p with Movie Digital IS<br></p>
+        <p>Resolution: 64MP</p>
+        <p>Rental: <i class="fa fa-inr"></i>1500/day</p><br><br>
+        <button class="contact-btn" onclick="showContactForm('Camera 4')">Rent Camera</button>
+      </div>
+    </div>
+
+    <div class="camera-card" data-camera-id="101">
+      <img class="camera-img" src="Camera5.png" alt="Camera 5">
+      <div class="camera-details">
+        <h2>Canon PowerShot G7 X Mark III </h2>
+        <p>Specifications: DIGIC 8 Image Processor & 2.54cm Stacked CMOS Sensor<br>
+          30fps (Raw Burst Mode - One Shot AF)<br>
+          4K Video Recording (without crop)<br>
+          Live Streaming<br></p>
+        <p>Resolution: 128MP</p>
+        <p>Rental: <i class="fa fa-inr"></i>1000/day</p>
+        <button class="contact-btn" onclick="showContactForm('Camera 5')">Rent Camera</button>
+      </div>
+    </div>
+
+
+    <div class="camera-card" data-camera-id="101">
+      <img class="camera-img" src="Camera6.png" alt="Camera 6">
+      <div class="camera-details">
+        <h2>Canon IXUS 285 HS</h2>
+        <p>Specifications: 20.2megapixel with very high sensitivity CMOS sensor <br>
+          12x Optical Zoom (25mm – 300mm) with 24x ZoomPlus <br>
+          Wi-Fi & NFC</p>
+        <p>Resolution: 24MP</p>
+        <p>Rental: <i class="fa fa-inr"></i>500/day</p><br><br><br>
+        <button class="contact-btn" onclick="showContactForm('Camera 6')">Rent Camera</button>
+      </div>
+    </div>
+
+
+
+  </section>
+
+  <section id="camera-details" class="camera-view" style="display: none;">
+    <img id="camera-view-img" class="camera-img" src="" alt="Camera">
+    <div class="camera-details">
+      <h2 id="camera-view-title">Camera Title</h2>
+      <p id="camera-view-info">Type: | Resolution: | Rental: </p>
+    </div>
+  </section>
+
+  <form  action="file.php" id="contact-form" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="phone">Number:</label>
+    <input type="text" id="phone" name="phone" required>
+
+    <label for="description">Question:</label>
+    <textarea id="description" name="description" rows="4" required></textarea>
+
+    <button type="submit">Submit</button>
+    <button type="button" onclick="goBackToListings()">Cancel</button>
+  </form>
+
+  <!-- Reviews -->
+  
+  <section id="Reviews">
+    <div class="camera-avl">
+      <h1 font-family: 'Montserrat', sans-serif;>Reviews</h1>
+    </div>
+    <div id="Review-controls" class="carousel slide" data-bs-ride="false" data-pause="hover">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="med-head">The cameras provided were top-notch. Great experience!</h2>
+            <em>Kanthraju, New York.</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="med-head">Prompt service and excellent camera quality. Highly recommended!</h2>
+          <em>Elijabeth, Goraguntepalya.</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="med-head">Prompt service and excellent camera quality. Highly recommended!</h2>
+          <em>Timamma, Los Angeles.</em>
+        </div>
+        
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#Review-controls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#Review-controls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div class="meet">
+      
+      <p>Rent a CAMera, and say cheeese.</p>
+    </div>
+  </footer>
+
+  <script>
+    function showContactForm(cameraTitle) {
+     
+      document.getElementById("camera-listings").style.display = "none";
+      document.getElementById("camera-details").style.display = "none";
+      document.getElementById("contact-form").style.display = "block";
+    }
+
+    function goBackToListings() {
+      
+      document.getElementById("camera-listings").style.display = "grid"; 
+      document.getElementById("camera-details").style.display = "none";
+      document.getElementById("contact-form").style.display = "none";
+    }
+</script>
+
+</body>
+
+</html>

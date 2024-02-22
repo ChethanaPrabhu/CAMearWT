@@ -1,0 +1,306 @@
+/* Header*/
+header {
+  background-color: #000;
+  color: #cc1616;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 2.5rem; 
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 4px;
+  color : red;
+  
+}
+
+.fa-home {
+  font-size: 1.5em;
+  margin-right: 0.5rem;
+}
+
+.fa-solid {
+  font-size: 100px;
+  padding: 30px;
+  text-align :center;
+  color: #000;
+}
+
+.fa-solid:hover {
+  color: #99add9;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* Features section */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  z-index: 1;
+  position: relative;
+}
+
+.col-lg-4 {
+  text-align: center;
+}
+
+.feature-heading {
+  font-weight: bold;
+}
+
+/* Home banner*/
+#home-banner {
+  position: relative;
+  height: 500px;
+  background: url('bg.png') center/cover no-repeat;
+  text-align: center;
+  color: Black;
+}
+
+.home-banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Montserrat', sans-serif;
+}
+
+#home-banner h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+#home-banner p {
+  font-size: 1.2em;
+}
+
+/* Reviews section  */
+#Reviews {
+  padding: 7%;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+
+/* Review image */
+.Review-image {
+  width: 25%;
+  border-radius: 60%;
+  border: solid;
+  margin: 10px;
+}
+
+/* Footer section */
+#footer {
+  padding: 1%;
+  text-align: center;
+  font-size: 15px;
+}
+
+.fa-brands:hover {
+  color: grey;
+}
+
+.fa-regular:hover {
+  color: grey;
+}
+
+.icons {
+  margin: 20px 10px;
+}
+
+/* Camera availability */
+.camera-avl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  background: #000;
+  color: white;
+  padding: 15px 10px;
+}
+
+.camera-avl h1 {
+  font-size: 36px;
+  letter-spacing: 7px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+
+/* Camera listings */
+#camera-listings {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.camera-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.camera-card:hover {
+  transform: scale(1.05);
+}
+
+.camera-img {
+  width: 300px;
+  height: 300px;
+  object-fit: fill;
+}
+
+.camera-details {
+  padding: 15px;
+}
+
+.camera-details h2 {
+  color: #000;
+}
+
+.camera-details p {
+  color: #777;
+}
+
+.fa-inr {
+  font-size: 16px;
+}
+
+.contact-btn {
+  background: linear-gradient(to right, #000, #99add9);
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+.contact-btn:hover {
+  background: #000;
+}
+
+/* Contact form */
+#contact-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  display: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+/* Login and Signup Forms */
+.login-container,
+.signup-container {
+  width: 300px;
+  margin: auto;
+  margin-top: 100px;
+  background-color: #ccc; 
+  color: #333; 
+  padding: 20px;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* login car */
+.login-card {
+  background-color: #fff; 
+  padding: 15px; 
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  color: #333; 
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 15px;
+  background-color: #eee; 
+  color: #333; 
+  border: 1px solid #999; 
+}
+
+button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #546b9e;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #99add9;
+}
+
+body {
+  background-color: #000;
+  color: #fff; 
+}
